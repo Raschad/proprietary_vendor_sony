@@ -176,6 +176,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
 	vendor/sony/rhine-common/proprietary/lib/libidd.so:system/lib/libidd.so \
 	vendor/sony/rhine-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+	vendor/sony/rhine-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/sony/rhine-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \	
 	vendor/sony/rhine-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
 	vendor/sony/rhine-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
 	vendor/sony/rhine-common/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
