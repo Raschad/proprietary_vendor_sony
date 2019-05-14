@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
 	vendor/sony/rhine-common/proprietary/vendor/bin/credmgrd:system/vendor/bin/credmgrd \
 	vendor/sony/rhine-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/sony/rhine-common/proprietary/vendor/bin/hvdcp:system/vendor/bin/hvdcp \
 	vendor/sony/rhine-common/proprietary/vendor/bin/iddd:system/vendor/bin/iddd \
 	vendor/sony/rhine-common/proprietary/vendor/bin/idd-logreader:system/vendor/bin/idd-logreader \
 	vendor/sony/rhine-common/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
