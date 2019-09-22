@@ -541,5 +541,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libta \
-    tad_static \
-    wait4tad_static
+ #   tad_static \
+ #   wait4tad_static
