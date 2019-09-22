@@ -37,24 +37,24 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS   := eng
-LOCAL_MODULE        := tad_static
-LOCAL_MODULE_CLASS  := BIN
-LOCAL_SRC_FILES     := proprietary/sbin/tad_static
-LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
-LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_ROOT_OUT_SBIN)/wait4tad_static
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE_TAGS   := eng
+#LOCAL_MODULE        := tad_static
+#LOCAL_MODULE_CLASS  := BIN
+#LOCAL_SRC_FILES     := proprietary/sbin/tad_static
+#LOCAL_MODULE_TAGS   := optional
+#LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
+#LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_ROOT_OUT_SBIN)/wait4tad_static
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS   := eng
-LOCAL_MODULE        := wait4tad_static
-LOCAL_MODULE_CLASS  := BIN
-LOCAL_SRC_FILES     := proprietary/sbin/wait4tad_static
-LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE_TAGS   := eng
+#LOCAL_MODULE        := wait4tad_static
+#LOCAL_MODULE_CLASS  := BIN
+#LOCAL_SRC_FILES     := proprietary/sbin/wait4tad_static
+#LOCAL_MODULE_TAGS   := optional
+#LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_cci
